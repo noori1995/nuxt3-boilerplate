@@ -1,0 +1,45 @@
+html,
+body,
+#app,
+#__nuxt {
+  font-family: 'Yekan';
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src:
+    url('~/assets/fonts/IRANYekanRegular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src:
+    url('~/assets/fonts/IRANYekanMedium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src:
+    url('~/assets/fonts/IRANYekanBold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src:
+    url('~/assets/fonts/IRANYekanExtraBold.ttf') format('truetype');
+  font-weight: 800;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Yekan';
+}
